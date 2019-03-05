@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:yellow;">
+
+<h1>Opening New Account</h1>
+
+<form>  
+    Customer Name: <input type="text" name="Customer Name" placeholder="Enter Full Name"/> 
+     </br> <br>
+   
+    <label for="phone">Customer Contact: </label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter 10 digit mobile no"
+       pattern="[0-9]{10}"
+       required><br>
+  <span class="note">Format: 1234567890</span> <br>
+  </br> 
+    
+    Customer Email : <input type = "email" name = "newinput"  placeholder = "email@example.com"/>
+         <br> <br/>
+    
+    Customer Date_of_Birth:  <input type="date" name="Customer Date_of_Birth "/> 
+     <br/> <br/> 
+
+    Customer Address_Line:  <input type="text" name="Customer Address_Line" placeholder="Enter Your Address"/>
+     <br/> <br/> 
+   
+    Customer City:  <input type="text" name="Customer City" placeholder="Enter Your City"/> 
+     <br/><br/> 
+   
+    Customer State:  <input type="text" name="Customer State" placeholder="Enter Your State"/>
+    <br/> <br/> 
+    
+    Customer Postal:  <input type="number" name="Customer Postal" placeholder="Enter your Postal"/> 
+    <br/><br/> 
+    Customer Gender:  <input type="radio" name="Gender" value="male"/>Male 
+    <input type="radio" name="Gender" value="Female"/>Female  <br/><br>
+     
+    <div class="form-group">
+        <label for="sel1">Customer Account_Type:</label>
+        <select class="form-control" id="sel1">
+          <option>None</option>
+          <option>Current</option>
+          <option>Saving</option>
+         
+        </select>
+      </div> <br>
+    <input type="submit" value="Submit">
+    <input type="reset">
+    
+    
+ </form>  
+</body>
+</html>
